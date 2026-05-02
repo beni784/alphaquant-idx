@@ -1,5 +1,4 @@
-
-""
+"""
 ═══════════════════════════════════════════════════════════════════
   ALPHAQUANT IDX v2.0 - Full Universe + Auto-Updater
   Update: Support 956+ emiten dengan auto-refresh dari IDX
@@ -306,7 +305,7 @@ def calculate_piotroski_fscore(ticker):
         else: details['Current Ratio > 1'] = '❌'
         
         gm = info.get('grossMargins', 0)
-        if gm and gm > 0: scorross Margin Positif'] = '✅'
+        if gm and gm > 0: score += 1; details['Gross Margin Positif'] = '✅'
         else: details['Gross Margin Positif'] = '❌'
         
         roe = info.get('returnOnEquity', 0)

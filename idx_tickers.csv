@@ -1,0 +1,62 @@
+ticker,name,sector
+BBCA.JK,Bank Central Asia,Banking
+BBRI.JK,Bank Rakyat Indonesia,Banking
+BMRI.JK,Bank Mandiri,Banking
+BBNI.JK,Bank Negara Indonesia,Banking
+BRIS.JK,Bank Syariah Indonesia,Banking
+ARTO.JK,Bank Jago,Banking
+TLKM.JK,Telkom Indonesia,Telecom
+ISAT.JK,Indosat,Telecom
+EXCL.JK,XL Axiata,Telecom
+ASII.JK,Astra International,Automotive
+UNVR.JK,Unilever Indonesia,Consumer
+ICBP.JK,Indofood CBP,Consumer
+INDF.JK,Indofood Sukses Makmur,Consumer
+MYOR.JK,Mayora Indah,Consumer
+KLBF.JK,Kalbe Farma,Healthcare
+SIDO.JK,Sido Muncul,Healthcare
+KAEF.JK,Kimia Farma,Healthcare
+HMSP.JK,HM Sampoerna,Tobacco
+GGRM.JK,Gudang Garam,Tobacco
+ADRO.JK,Adaro Energy,Coal
+PTBA.JK,Bukit Asam,Coal
+ITMG.JK,Indo Tambangraya,Coal
+HRUM.JK,Harum Energy,Coal
+ANTM.JK,Aneka Tambang,Mining
+INCO.JK,Vale Indonesia,Mining
+MDKA.JK,Merdeka Copper Gold,Mining
+TINS.JK,Timah,Mining
+MEDC.JK,Medco Energi,Oil & Gas
+PGAS.JK,Perusahaan Gas Negara,Oil & Gas
+SMGR.JK,Semen Indonesia,Cement
+INTP.JK,Indocement,Cement
+WIKA.JK,Wijaya Karya,Construction
+WSKT.JK,Waskita Karya,Construction
+PTPP.JK,PP (Persero),Construction
+ADHI.JK,Adhi Karya,Construction
+JSMR.JK,Jasa Marga,Infrastructure
+CTRA.JK,Ciputra Development,Property
+BSDE.JK,Bumi Serpong Damai,Property
+PWON.JK,Pakuwon Jati,Property
+SMRA.JK,Summarecon Agung,Property
+ACES.JK,Ace Hardware,Retail
+MAPI.JK,Mitra Adiperkasa,Retail
+ERAA.JK,Erajaya Swasembada,Retail
+AMRT.JK,Sumber Alfaria Trijaya,Retail
+GOTO.JK,GoTo Gojek Tokopedia,Tech
+BUKA.JK,Bukalapak,Tech
+EMTK.JK,Elang Mahkota Teknologi,Media
+SCMA.JK,Surya Citra Media,Media
+MNCN.JK,Media Nusantara Citra,Media
+TOWR.JK,Sarana Menara Nusantara,Tower
+TBIG.JK,Tower Bersama,Tower
+MIKA.JK,Mitra Keluarga,Healthcare
+CPIN.JK,Charoen Pokphand,Poultry
+JPFA.JK,Japfa Comfeed,Poultry
+AALI.JK,Astra Agro Lestari,Plantation
+LSIP.JK,London Sumatra,Plantation
+UNTR.JK,United Tractors,Heavy Equipment
+INKP.JK,Indah Kiat Pulp,Pulp & Paper
+TKIM.JK,Tjiwi Kimia,Pulp & Paper
+BRPT.JK,Barito Pacific,Petrochemical
+TPIA.JK,Chandra Asri,Petrochemical

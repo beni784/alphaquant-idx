@@ -1,62 +1,272 @@
-ticker,name,sector
-BBCA.JK,Bank Central Asia,Banking
-BBRI.JK,Bank Rakyat Indonesia,Banking
-BMRI.JK,Bank Mandiri,Banking
-BBNI.JK,Bank Negara Indonesia,Banking
-BRIS.JK,Bank Syariah Indonesia,Banking
-ARTO.JK,Bank Jago,Banking
-TLKM.JK,Telkom Indonesia,Telecom
-ISAT.JK,Indosat,Telecom
-EXCL.JK,XL Axiata,Telecom
-ASII.JK,Astra International,Automotive
-UNVR.JK,Unilever Indonesia,Consumer
-ICBP.JK,Indofood CBP,Consumer
-INDF.JK,Indofood Sukses Makmur,Consumer
-MYOR.JK,Mayora Indah,Consumer
-KLBF.JK,Kalbe Farma,Healthcare
-SIDO.JK,Sido Muncul,Healthcare
-KAEF.JK,Kimia Farma,Healthcare
-HMSP.JK,HM Sampoerna,Tobacco
-GGRM.JK,Gudang Garam,Tobacco
-ADRO.JK,Adaro Energy,Coal
-PTBA.JK,Bukit Asam,Coal
-ITMG.JK,Indo Tambangraya,Coal
-HRUM.JK,Harum Energy,Coal
-ANTM.JK,Aneka Tambang,Mining
-INCO.JK,Vale Indonesia,Mining
-MDKA.JK,Merdeka Copper Gold,Mining
-TINS.JK,Timah,Mining
-MEDC.JK,Medco Energi,Oil & Gas
-PGAS.JK,Perusahaan Gas Negara,Oil & Gas
-SMGR.JK,Semen Indonesia,Cement
-INTP.JK,Indocement,Cement
-WIKA.JK,Wijaya Karya,Construction
-WSKT.JK,Waskita Karya,Construction
-PTPP.JK,PP (Persero),Construction
-ADHI.JK,Adhi Karya,Construction
-JSMR.JK,Jasa Marga,Infrastructure
-CTRA.JK,Ciputra Development,Property
-BSDE.JK,Bumi Serpong Damai,Property
-PWON.JK,Pakuwon Jati,Property
-SMRA.JK,Summarecon Agung,Property
-ACES.JK,Ace Hardware,Retail
-MAPI.JK,Mitra Adiperkasa,Retail
-ERAA.JK,Erajaya Swasembada,Retail
-AMRT.JK,Sumber Alfaria Trijaya,Retail
-GOTO.JK,GoTo Gojek Tokopedia,Tech
-BUKA.JK,Bukalapak,Tech
-EMTK.JK,Elang Mahkota Teknologi,Media
-SCMA.JK,Surya Citra Media,Media
-MNCN.JK,Media Nusantara Citra,Media
-TOWR.JK,Sarana Menara Nusantara,Tower
-TBIG.JK,Tower Bersama,Tower
-MIKA.JK,Mitra Keluarga,Healthcare
-CPIN.JK,Charoen Pokphand,Poultry
-JPFA.JK,Japfa Comfeed,Poultry
-AALI.JK,Astra Agro Lestari,Plantation
-LSIP.JK,London Sumatra,Plantation
-UNTR.JK,United Tractors,Heavy Equipment
-INKP.JK,Indah Kiat Pulp,Pulp & Paper
-TKIM.JK,Tjiwi Kimia,Pulp & Paper
-BRPT.JK,Barito Pacific,Petrochemical
-TPIA.JK,Chandra Asri,Petrochemical
+ticker,name,sector,board
+AADI.JK,Adaro Andalan Indonesia,Coal,Utama
+AALI.JK,Astra Agro Lestari,Plantation,Utama
+ABBA.JK,Mahaka Media,Media,Pemantauan Khusus
+ABDA.JK,Asuransi Bina Dana Arta,Insurance,Pemantauan Khusus
+ABMM.JK,ABM Investama,Coal,Utama
+ACES.JK,Aspirasi Hidup Indonesia,Retail,Utama
+ACST.JK,Acset Indonusa,Construction,Pemantauan Khusus
+ADES.JK,Akasha Wira International,Consumer,Pengembangan
+ADHI.JK,Adhi Karya,Construction,Utama
+ADMR.JK,Adaro Minerals Indonesia,Mining,Utama
+ADRO.JK,Alamtri Resources,Coal,Utama
+AGII.JK,Aneka Gas Industri,Industrial Gas,Utama
+AGRO.JK,Bank Raya Indonesia,Banking,Utama
+AKRA.JK,AKR Corporindo,Trading,Utama
+ALII.JK,Alfa Energi Investama,Energy,Pengembangan
+AMAG.JK,Asuransi Multi Artha Guna,Insurance,Utama
+AMMN.JK,Amman Mineral Internasional,Mining,Utama
+AMRT.JK,Sumber Alfaria Trijaya,Retail,Utama
+ANJT.JK,Austindo Nusantara Jaya,Plantation,Utama
+ANTM.JK,Aneka Tambang,Mining,Utama
+APIC.JK,Pacific Strategic Financial,Finance,Pengembangan
+APLN.JK,Agung Podomoro Land,Property,Pemantauan Khusus
+ARNA.JK,Arwana Citramulia,Ceramics,Utama
+ARTO.JK,Bank Jago,Banking,Utama
+ASGR.JK,Astra Graphia,IT,Utama
+ASII.JK,Astra International,Automotive,Utama
+ASRI.JK,Alam Sutera Realty,Property,Utama
+ASSA.JK,Adi Sarana Armada,Logistics,Utama
+AUTO.JK,Astra Otoparts,Automotive,Utama
+AVIA.JK,Avia Avian,Paint,Utama
+BABP.JK,Bank MNC Internasional,Banking,Pemantauan Khusus
+BACA.JK,Bank Capital Indonesia,Banking,Pemantauan Khusus
+BALI.JK,Bali Towerindo Sentra,Tower,Utama
+BAPA.JK,Bekasi Asri Pemula,Property,Pemantauan Khusus
+BAPI.JK,Bhakti Agung Propertindo,Property,Pengembangan
+BBCA.JK,Bank Central Asia,Banking,Utama
+BBHI.JK,Allo Bank Indonesia,Banking,Utama
+BBKP.JK,Bank KB Bukopin,Banking,Pemantauan Khusus
+BBMD.JK,Bank Mestika Dharma,Banking,Utama
+BBNI.JK,Bank Negara Indonesia,Banking,Utama
+BBRI.JK,Bank Rakyat Indonesia,Banking,Utama
+BBSI.JK,Krom Bank Indonesia,Banking,Utama
+BBTN.JK,Bank Tabungan Negara,Banking,Utama
+BBYB.JK,Bank Neo Commerce,Banking,Utama
+BDMN.JK,Bank Danamon Indonesia,Banking,Utama
+BEKS.JK,Bank Pembangunan Daerah Banten,Banking,Pemantauan Khusus
+BFIN.JK,BFI Finance Indonesia,Finance,Utama
+BHIT.JK,MNC Asia Holding,Investment,Utama
+BIPI.JK,Astrindo Nusantara Infrastruktur,Energy,Utama
+BIRD.JK,Blue Bird,Transportation,Utama
+BJBR.JK,Bank Jabar Banten,Banking,Utama
+BJTM.JK,Bank Jatim,Banking,Utama
+BKSL.JK,Sentul City,Property,Pemantauan Khusus
+BMHS.JK,Bundamedik,Healthcare,Utama
+BMRI.JK,Bank Mandiri,Banking,Utama
+BMTR.JK,Global Mediacom,Media,Utama
+BNBA.JK,Bank Bumi Arta,Banking,Utama
+BNGA.JK,Bank CIMB Niaga,Banking,Utama
+BNII.JK,Bank Maybank Indonesia,Banking,Utama
+BNLI.JK,Bank Permata,Banking,Utama
+BOGA.JK,Bintang Oto Global,Automotive,Pengembangan
+BOLT.JK,Garuda Metalindo,Automotive,Utama
+BPTR.JK,Batavia Prosperindo Trans,Transportation,Pengembangan
+BRIS.JK,Bank Syariah Indonesia,Banking,Utama
+BRMS.JK,Bumi Resources Minerals,Mining,Utama
+BRPT.JK,Barito Pacific,Petrochemical,Utama
+BSDE.JK,Bumi Serpong Damai,Property,Utama
+BTPN.JK,Bank BTPN,Banking,Utama
+BTPS.JK,Bank BTPN Syariah,Banking,Utama
+BUKA.JK,Bukalapak.com,Tech,Utama
+BUKK.JK,Bukaka Teknik Utama,Construction,Utama
+BUMI.JK,Bumi Resources,Coal,Utama
+BVIC.JK,Bank Victoria International,Banking,Pemantauan Khusus
+BYAN.JK,Bayan Resources,Coal,Utama
+CARS.JK,Bintraco Dharma,Automotive,Utama
+CASA.JK,Capital Financial Indonesia,Finance,Pemantauan Khusus
+CASS.JK,Cardig Aero Services,Aviation,Utama
+CBDK.JK,Bangun Kosambi Sukses,Property,Utama
+CDIA.JK,Chandra Daya Investasi,Investment,Utama
+CFIN.JK,Clipan Finance Indonesia,Finance,Utama
+CINT.JK,Chitose Internasional,Furniture,Utama
+CITA.JK,Cita Mineral Investindo,Mining,Utama
+CLEO.JK,Sariguna Primatirta,Beverage,Utama
+CMNP.JK,Citra Marga Nusaphala Persada,Infrastructure,Utama
+CMRY.JK,Cisarua Mountain Dairy,Consumer,Utama
+CNMA.JK,Cinemaxx Global Pasifik,Entertainment,Utama
+COCO.JK,Wahana Interfood Nusantara,Consumer,Pengembangan
+CPIN.JK,Charoen Pokphand Indonesia,Poultry,Utama
+CPRO.JK,Central Proteina Prima,Aquaculture,Pemantauan Khusus
+CSAP.JK,Catur Sentosa Adiprana,Trading,Utama
+CTRA.JK,Ciputra Development,Property,Utama
+DART.JK,Duta Anggada Realty,Property,Pemantauan Khusus
+DEWA.JK,Darma Henwa,Coal,Utama
+DGNS.JK,Diagnos Laboratorium Utama,Healthcare,Utama
+DKFT.JK,Central Omega Resources,Mining,Pemantauan Khusus
+DMAS.JK,Puradelta Lestari,Property,Utama
+DMMX.JK,Digital Mediatama Maxima,Tech,Utama
+DOID.JK,Delta Dunia Makmur,Mining Services,Utama
+DOOH.JK,Era Media Sejahtera,Media,Utama
+DRMA.JK,Dharma Polimetal,Automotive,Utama
+DSNG.JK,Dharma Satya Nusantara,Plantation,Utama
+DUTI.JK,Duta Pertiwi,Property,Utama
+DVLA.JK,Darya-Varia Laboratoria,Healthcare,Utama
+EAST.JK,Eastparc Hotel,Hotel,Utama
+ELSA.JK,Elnusa,Oil & Gas Services,Utama
+EMTK.JK,Elang Mahkota Teknologi,Media,Utama
+ENRG.JK,Energi Mega Persada,Oil & Gas,Utama
+EPMT.JK,Enseval Putera Megatrading,Distribution,Utama
+ERAA.JK,Erajaya Swasembada,Retail,Utama
+ESSA.JK,ESSA Industries Indonesia,Petrochemical,Utama
+ESTI.JK,Ever Shine Tex,Textile,Pemantauan Khusus
+EXCL.JK,XLSmart Telecom Sejahtera,Telecom,Utama
+FASW.JK,Fajar Surya Wisesa,Pulp & Paper,Utama
+FILM.JK,MD Pictures,Entertainment,Utama
+FISH.JK,FKS Multi Agro,Agribusiness,Utama
+FREN.JK,Smartfren Telecom,Telecom,Utama
+GEMS.JK,Golden Energy Mines,Coal,Utama
+GGRM.JK,Gudang Garam,Tobacco,Utama
+GIAA.JK,Garuda Indonesia,Aviation,Pemantauan Khusus
+GJTL.JK,Gajah Tunggal,Tire,Utama
+GOLD.JK,Visi Telekomunikasi Infrastruktur,Tower,Utama
+GOTO.JK,GoTo Gojek Tokopedia,Tech,Utama
+GPRA.JK,Perdana Gapuraprima,Property,Pemantauan Khusus
+HEAL.JK,Medikaloka Hermina,Healthcare,Utama
+HEXA.JK,Hexindo Adiperkasa,Heavy Equipment,Utama
+HMSP.JK,HM Sampoerna,Tobacco,Utama
+HOKI.JK,Buyung Poetra Sembada,Consumer,Utama
+HRTA.JK,Hartadinata Abadi,Jewelry,Utama
+HRUM.JK,Harum Energy,Coal,Utama
+IBST.JK,Inti Bangun Sejahtera,Tower,Utama
+ICBP.JK,Indofood CBP Sukses Makmur,Consumer,Utama
+IMAS.JK,Indomobil Sukses Internasional,Automotive,Pemantauan Khusus
+IMJS.JK,Indomobil Multi Jasa,Finance,Utama
+INCF.JK,Indo Komoditi Korpora,Trading,Pengembangan
+INCO.JK,Vale Indonesia,Mining,Utama
+INDF.JK,Indofood Sukses Makmur,Consumer,Utama
+INDY.JK,Indika Energy,Coal,Utama
+INET.JK,Sinergi Inti Andalan Prima,IT,Pengembangan
+INKP.JK,Indah Kiat Pulp & Paper,Pulp & Paper,Utama
+INPP.JK,Indonesian Paradise Property,Property,Utama
+INTP.JK,Indocement Tunggal Prakarsa,Cement,Utama
+IPCC.JK,Indonesia Kendaraan Terminal,Logistics,Utama
+IPCM.JK,Jasa Armada Indonesia,Logistics,Utama
+IPOL.JK,Indopoly Swakarsa Industry,Plastic,Utama
+IPTV.JK,MNC Vision Networks,Media,Utama
+ISAT.JK,Indosat,Telecom,Utama
+ISSP.JK,Steel Pipe Industry of Indonesia,Steel,Utama
+ITMA.JK,Sumber Energi Andalan,Coal,Pengembangan
+ITMG.JK,Indo Tambangraya Megah,Coal,Utama
+JAST.JK,Jasnita Telekomindo,Telecom,Pengembangan
+JIHD.JK,Jakarta International Hotels,Hotel,Utama
+JKON.JK,Jaya Konstruksi Manggala Pratama,Construction,Utama
+JPFA.JK,Japfa Comfeed Indonesia,Poultry,Utama
+JSMR.JK,Jasa Marga,Infrastructure,Utama
+JSPT.JK,Jakarta Setiabudi Internasional,Hotel,Utama
+JTPE.JK,Jasuindo Tiga Perkasa,Printing,Utama
+KAEF.JK,Kimia Farma,Healthcare,Utama
+KBLI.JK,KMI Wire and Cable,Cable,Utama
+KBLM.JK,Kabelindo Murni,Cable,Utama
+KIJA.JK,Kawasan Industri Jababeka,Property,Utama
+KINO.JK,Kino Indonesia,Consumer,Utama
+KLBF.JK,Kalbe Farma,Healthcare,Utama
+KPIG.JK,MNC Land,Property,Utama
+LINK.JK,Link Net,Telecom,Utama
+LPCK.JK,Lippo Cikarang,Property,Utama
+LPIN.JK,Multi Prima Sejahtera,Automotive,Pengembangan
+LPKR.JK,Lippo Karawaci,Property,Utama
+LPPF.JK,Matahari Department Store,Retail,Utama
+LSIP.JK,PP London Sumatra Indonesia,Plantation,Utama
+MAIN.JK,Malindo Feedmill,Poultry,Utama
+MAPA.JK,Map Aktif Adiperkasa,Retail,Utama
+MAPB.JK,Map Boga Adiperkasa,F&B,Utama
+MAPI.JK,Mitra Adiperkasa,Retail,Utama
+MARK.JK,Mark Dynamics Indonesia,Manufacturing,Utama
+MASA.JK,Multistrada Arah Sarana,Tire,Utama
+MBAP.JK,Mitrabara Adiperdana,Coal,Utama
+MBMA.JK,Merdeka Battery Materials,Battery,Utama
+MCAS.JK,M Cash Integrasi,Tech,Utama
+MCOL.JK,Prima Andalan Mandiri,Coal,Utama
+MDIY.JK,Daya Intiguna Yasa,Retail,Utama
+MDKA.JK,Merdeka Copper Gold,Mining,Utama
+MEDC.JK,Medco Energi Internasional,Oil & Gas,Utama
+META.JK,Nusantara Infrastructure,Infrastructure,Utama
+MFIN.JK,Mandala Multifinance,Finance,Utama
+MIDI.JK,Midi Utama Indonesia,Retail,Utama
+MIKA.JK,Mitra Keluarga Karyasehat,Healthcare,Utama
+MLPL.JK,Multipolar,Investment,Utama
+MLPT.JK,Multipolar Technology,IT,Utama
+MNCN.JK,Media Nusantara Citra,Media,Utama
+MPMX.JK,Mitra Pinasthika Mustika,Automotive,Utama
+MPPA.JK,Matahari Putra Prima,Retail,Pemantauan Khusus
+MTDL.JK,Metrodata Electronics,IT,Utama
+MTEL.JK,Dayamitra Telekomunikasi,Tower,Utama
+MYOH.JK,Samindo Resources,Coal,Utama
+MYOR.JK,Mayora Indah,Consumer,Utama
+NCKL.JK,Trimegah Bangun Persada,Mining,Utama
+NIKL.JK,Pelat Timah Nusantara,Steel,Utama
+NISP.JK,Bank OCBC NISP,Banking,Utama
+OASA.JK,Maharaksa Biru Energi,Energy,Utama
+OMRE.JK,Indonesia Prima Property,Property,Pemantauan Khusus
+PACK.JK,Bintang Oto Global,Packaging,Pengembangan
+PANI.JK,Pantai Indah Kapuk Dua,Property,Utama
+PBRX.JK,Pan Brothers,Textile,Pemantauan Khusus
+PEHA.JK,Phapros,Healthcare,Utama
+PGAS.JK,Perusahaan Gas Negara,Oil & Gas,Utama
+PGEO.JK,Pertamina Geothermal Energy,Energy,Utama
+PJAA.JK,Pembangunan Jaya Ancol,Entertainment,Utama
+PNBN.JK,Bank Pan Indonesia,Banking,Utama
+PNBS.JK,Bank Panin Dubai Syariah,Banking,Utama
+PNLF.JK,Panin Financial,Finance,Utama
+POLY.JK,Asia Pacific Fibers,Textile,Pemantauan Khusus
+POWR.JK,Cikarang Listrindo,Power,Utama
+PSAB.JK,J Resources Asia Pasifik,Mining,Utama
+PSSI.JK,Pelita Samudera Shipping,Shipping,Utama
+PTBA.JK,Bukit Asam,Coal,Utama
+PTPP.JK,PP (Persero),Construction,Utama
+PTRO.JK,Petrosea,Mining Services,Utama
+PWON.JK,Pakuwon Jati,Property,Utama
+RAJA.JK,Rukun Raharja,Energy,Utama
+RALS.JK,Ramayana Lestari Sentosa,Retail,Utama
+RATU.JK,Raharja Energi Cepu,Oil & Gas,Utama
+RDTX.JK,Roda Vivatex,Property,Utama
+RMKE.JK,RMK Energy,Coal,Utama
+ROTI.JK,Nippon Indosari Corpindo,Consumer,Utama
+SCMA.JK,Surya Citra Media,Media,Utama
+SCNP.JK,Selaras Citra Nusantara Perkasa,Trading,Utama
+SDRA.JK,Bank Woori Saudara Indonesia,Banking,Utama
+SGER.JK,Sumber Global Energy,Coal,Utama
+SIDO.JK,Industri Jamu dan Farmasi Sido Muncul,Healthcare,Utama
+SILO.JK,Siloam International Hospitals,Healthcare,Utama
+SIMP.JK,Salim Ivomas Pratama,Plantation,Utama
+SMAR.JK,Smart,Plantation,Utama
+SMBR.JK,Semen Baturaja,Cement,Utama
+SMDR.JK,Samudera Indonesia,Shipping,Utama
+SMGR.JK,Semen Indonesia,Cement,Utama
+SMIL.JK,Sanurhasta Mitra,Hotel,Pengembangan
+SMRA.JK,Summarecon Agung,Property,Utama
+SMSM.JK,Selamat Sempurna,Automotive,Utama
+SOCI.JK,Soechi Lines,Shipping,Utama
+SRTG.JK,Saratoga Investama Sedaya,Investment,Utama
+SSIA.JK,Surya Semesta Internusa,Construction,Utama
+SSMS.JK,Sawit Sumbermas Sarana,Plantation,Utama
+STAA.JK,Sumber Tani Agung Resources,Plantation,Utama
+SURI.JK,Surya Pertiwi,Sanitary,Utama
+TAPG.JK,Triputra Agro Persada,Plantation,Utama
+TBIG.JK,Tower Bersama Infrastructure,Tower,Utama
+TBLA.JK,Tunas Baru Lampung,Plantation,Utama
+TGKA.JK,Tigaraksa Satria,Distribution,Utama
+TINS.JK,Timah,Mining,Utama
+TKIM.JK,Pabrik Kertas Tjiwi Kimia,Pulp & Paper,Utama
+TLKM.JK,Telkom Indonesia,Telecom,Utama
+TOBA.JK,TBS Energi Utama,Energy,Utama
+TOTL.JK,Total Bangun Persada,Construction,Utama
+TOTO.JK,Surya Toto Indonesia,Sanitary,Utama
+TOWR.JK,Sarana Menara Nusantara,Tower,Utama
+TPIA.JK,Chandra Asri Pacific,Petrochemical,Utama
+TPMA.JK,Trans Power Marine,Shipping,Utama
+TRIM.JK,Trimegah Sekuritas Indonesia,Securities,Utama
+TRIS.JK,Trisula International,Textile,Utama
+TSPC.JK,Tempo Scan Pacific,Healthcare,Utama
+ULTJ.JK,Ultrajaya Milk Industry,Consumer,Utama
+UNIQ.JK,Ulima Nitra,Oil & Gas Services,Utama
+UNTR.JK,United Tractors,Heavy Equipment,Utama
+UNVR.JK,Unilever Indonesia,Consumer,Utama
+WIFI.JK,Solusi Sinergi Digital,IT,Utama
+WIIM.JK,Wismilak Inti Makmur,Tobacco,Utama
+WIKA.JK,Wijaya Karya,Construction,Pemantauan Khusus
+WOOD.JK,Integra Indocabinet,Furniture,Utama
+WSKT.JK,Waskita Karya,Construction,Pemantauan Khusus
+WTON.JK,Wijaya Karya Beton,Construction,Utama
+ZINC.JK,Kapuas Prima Coal,Mining,Pemantauan Khusus
